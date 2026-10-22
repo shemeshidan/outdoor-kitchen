@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "test": "vitest run",
     "test:watch": "vitest",
-    "deploy": "tsc -b && vitest run && vite build --base=/outdoor-kitchen/ && gh-pages -d dist --nojekyll"
+    "deploy": "tsc -b && vitest run && vite build --base=/outdoor-kitchen/ && gh-pages -d dist --nojekyll --dotfiles"
   },
   "dependencies": {
     "@fluentui/react-components": "^9.68.0",
